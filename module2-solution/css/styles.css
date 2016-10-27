@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+font-size:120%;
+}
+h1 {
+	text-align: center;
+}
+
+p {
+  border: 3px solid black;
+  background-color: #888888;
+  width: 100%;
+  height: 150px;
+  font-size: .7em;
+  text-align: left;
+  word-wrap: 1;
+  font-family: Helvetica;
+  color: black;
+
+}
+
+/* Simple Responsive Framework. */
+.row div {
+  background-color: #ffffff;
+  padding-left: 15px;
+  font-family: Helvetica;
+}
+
+#t1 {
+  background-color: #336699;
+  border: 3px solid black;
+  width: 80px;
+  height: 20px;
+  font-family: Helvetica;
+  font-style: bold;
+  color: darkgray;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#t2 {
+  background-color: #ffff66;
+  border: 3px solid black;
+  width: 80px;
+  height: 20px;
+  font-family: Helvetica;
+  font-style: bold;
+  color: darkgray;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+#t3 {
+  background-color: #aaafff;
+  border: 3px solid black;
+  width: 80px;
+  height: 20px;
+  font-family: Helvetica;
+  font-style: bold;
+  color: black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-ld-1 {
+  	position: relative;
+    float: left;
+    width: 33%;
+  }
+  .col-ld-2 {
+  	position: relative;
+    float: left;
+    width: 33%;
+  }
+  .col-ld-3 {
+  	position: relative;
+    float: left;
+    width: 33%;
+  }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1 {
+  	position: relative;
+    float: left;
+    width: 50%;
+  }
+  .col-md-2 {
+  	position: relative;
+    float: left;
+    width: 50%;
+  }
+  .col-md-3 {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-sd-1 {
+  	position: relative;
+    float: left;
+    width: 100%;
+  }
+  .col-sd-2 {
+  	position: relative;
+    float: left;
+    width: 100%;
+  }
+  .col-sd-3 {
+  	position: relative;
+    float: left;
+    width: 100%;
+  }
+}
+
